@@ -99,7 +99,7 @@ PLUGIN_API std::vector<RecordEngineManager*> getAvailableRecordEngines();
 PLUGIN_API String getSelectedRecordEngineId();
 
 /** Gets the recording direction*/
-PLUGIN_API String  getTextToRecordingDir();
+PLUGIN_API String getTextToRecordingDir();
 PLUGIN_API String getPrependTextToRecordingDir();
 PLUGIN_API String getAppendTextToRecordingDir();
 

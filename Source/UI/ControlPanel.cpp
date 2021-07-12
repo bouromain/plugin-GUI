@@ -1129,16 +1129,7 @@ void ControlPanel::setDateText(String t)
 String ControlPanel::getDateText()
 {
     String t = dateText->getText();
-
-    if (t.length() > 0)
-    {
-        return t + "";
-    }
-    else
-    {
-        return t;
-    }
-
+    return t;
 }
 
 
