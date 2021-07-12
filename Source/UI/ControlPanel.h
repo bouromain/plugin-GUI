@@ -343,6 +343,9 @@ public:
     /** Set date text. */
     void setDateText(String);
 
+    /** Get date text. */
+    String getDateText();
+
     /** Save settings. */
     void saveStateToXml(XmlElement*);
 

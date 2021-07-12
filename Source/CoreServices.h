@@ -98,6 +98,11 @@ PLUGIN_API std::vector<RecordEngineManager*> getAvailableRecordEngines();
 /** Gets the ID fo the selected Record Engine*/
 PLUGIN_API String getSelectedRecordEngineId();
 
+/** Gets the recording direction*/
+PLUGIN_API String  getTextToRecordingDir();
+PLUGIN_API String getPrependTextToRecordingDir();
+PLUGIN_API String getAppendTextToRecordingDir();
+
 /** Sets a specific RecordEngine to be used based on its id. 
 Return true if there is an engine with the specified ID and it's possible to
 change the current engine or false otherwise. */

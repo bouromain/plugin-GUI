@@ -128,6 +128,11 @@ namespace CoreServices
 		getControlPanel()->setPrependText(text);
 	}
 
+	String getTextToRecordingDir()
+	{
+		return getControlPanel()->getDateText();
+	}
+
 	void setAppendTextToRecordingDir(String text)
 	{
 		getControlPanel()->setAppendText(text);
