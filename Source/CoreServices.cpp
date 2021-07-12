@@ -133,9 +133,19 @@ namespace CoreServices
 		return getControlPanel()->getDateText();
 	}
 
+	String getPrependTextToRecordingDir()
+	{
+		return getControlPanel()->getTextToPrepend();
+	}
+
 	void setAppendTextToRecordingDir(String text)
 	{
 		getControlPanel()->setAppendText(text);
+	}
+
+	String getAppendTextToRecordingDir()
+	{
+		return getControlPanel()->getTextToAppend();
 	}
 
 	std::vector<RecordEngineManager*> getAvailableRecordEngines()
